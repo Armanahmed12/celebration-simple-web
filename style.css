@@ -1,0 +1,364 @@
+/* common style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 4vh 3vw;
+}
+
+/* Common css */
+
+.party-section div > button, .hotel-info > input, footer input {
+
+    background-color: red;
+    color : white;
+    padding : 0.5rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.party-section div > button:hover, .hotel-info > input:hover{
+    background-color: rgb(0, 205, 0);
+}
+
+/* Banner Section */
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 4vh 3vw; */
+  background: linear-gradient(#000000c1, #0000003c),
+    url("./resources/Banner\ Image.png");
+  background-size: 100% 100%;
+  /* height: 90vh; */
+  height: 350px;
+}
+
+.banner-section h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner-section span {
+  font-size: 5vw;
+  display: block;
+  margin-top: 3vh;
+}
+
+/*==================== offer section ================ */
+
+.offer-section {
+  text-align: center;
+  margin: 14vh 0;
+}
+
+.offer-section h2 {
+  color: red;
+  font-size: 5rem;
+}
+
+.offer-section h3 {
+  font-size: 1.4rem;
+}
+
+.offer-section p {
+  color: red;
+  margin-top: 1rem;
+}
+.offer-section > img {
+  width: 60%;
+  margin-top: 30px;
+}
+
+        /*==================== Party section ================ */
+
+.party-section{
+
+      background: linear-gradient(to right,#000000ee, #0000002e),url('./resources/Vectorrr.png');
+      background-size: 100% 100%;
+      height: 300px;
+      color: white;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0 4vw;
+      margin-bottom: 1.5rem;
+      
+}
+
+.party-section h2{
+
+      font-size: 3rem;
+      letter-spacing: 4px;
+}
+
+.party-section img{
+
+     height: 80%;
+}
+
+
+.party-section div p{
+
+      margin: 1rem 0;
+}
+
+  /*==================== Hotel Info ================ */
+  
+
+.hotel-info {
+
+    background: linear-gradient(#ff000026,white);
+    text-align: center;
+    padding: 4rem 0;
+    line-height: 2.1rem;
+}
+
+.hotel-info > h2:nth-last-child(2){
+
+      margin-bottom: 1rem;
+}
+
+.hotel-info span {
+
+       color: red;
+}
+
+
+    /* =============== Recent-Best-Offer ======================== */
+ 
+
+.best-offer-section {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+
+.best-offer-section > div {
+
+    width : 30%;
+    text-align: left;
+}
+
+.best-offer-section > img{
+
+     height : 250px;
+     width: 250px;
+     padding: 1rem;
+     border: 4px solid red;
+     border-radius: 50%;
+}
+
+.best-offer-section > div > p:first-child{
+
+     color : #fc0000;
+     font-weight: bold;
+     font-size: 1.2rem;
+}
+
+        /* =========== HOliday Section ======================= */
+ 
+.holiday-section{
+
+      text-align: center;
+}
+
+.holiday-section > div:first-child {
+
+       width: 50%;
+       margin: 3rem auto;
+
+}
+
+.holiday-section > div:first-child h2 {
+
+     font-size: 1.3rem;
+}
+
+.holiday-section > div:first-child h1 {
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.holiday-section > div:first-child span{
+
+     color : red;
+     font-weight: bold;
+}
+
+.holiday-img-container{
+
+     display: flex;
+     position: relative;
+}
+
+.holiday-img-container img:first-child{
+
+     width: 60%;
+     height : 430px;
+     position: absolute;
+}
+
+#img-of-percentage {
+
+     height: 170px;
+     width: 170;
+    position: absolute;
+    right: 220px;
+    top: 100px;
+}
+
+.holiday-img-container img:last-child{
+
+     width: 30%;
+     display: block;
+     height : 300px;
+     margin-left: auto;
+
+}
+
+.horizontal-red-line{
+
+     width: 100%;
+     height: 140px
+}
+
+
+  /* ============ portfolio-section ==================== */
+
+
+.portfolio-section > div:first-child p:first-child{
+
+     color: red;
+     font-weight: 700;
+     font-size: 1.3rem;
+}
+
+.portfolio-section > div:first-child h2{
+
+      font-size: 2rem;
+      font-weight: bold;
+}
+
+.portfolio-img-container{
+
+        margin: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem; 
+}
+
+.portfolio-img-container img{
+
+    width: 100%;
+    height: 250px;
+}
+
+      /* ================ Newsletter subscription part ==================== */
+
+.newLetter-subscription-section{
+
+      background-color: #ff000026;
+      padding: 2rem 1rem;
+      text-align: center;
+}      
+
+.email-part-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.email-part-container input{
+
+    padding: 0.5rem 0.8rem;
+    margin: 0;
+    border: none;
+}
+
+.email-part-container input:first-child {
+
+      width : 240px;
+      border-top-left-radius: .5rem;
+      border-bottom-left-radius: .5rem;
+     
+}
+
+.email-part-container input:last-child {
+
+      border-top-right-radius: .5rem;
+      border-bottom-right-radius: .5rem;
+      background-color: red;
+      color: white;
+}
+
+
+  /* ===========================  Footer Part ================================*/
+
+ footer{
+
+     background-color: black;
+     height: 350px;
+     color: white;
+     padding: 1rem 2rem;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 2rem;
+     
+ }
+ 
+.footer-part-one > div:last-child > div {
+
+     display: flex;
+     gap: 5px;
+     justify-content: center;
+     align-items: center;
+     height: 20px;
+     margin: 0.5px;
+}
+
+.footer-part-one > div:last-child p{
+
+      margin: 0;
+}
+
+.footer-part-one {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      
+}
+
+.footer-part-one img{
+
+     margin: 0;
+}
+
+.social-media-section {
+
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+footer hr{
+
+     color: blue;
+     
+}
